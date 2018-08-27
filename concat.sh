@@ -16,4 +16,5 @@ done
 for var in $varname 
 do 
  cat tavg_${var}_c*.dat > tavg_${var}.dat 
+ rm tavg_${var}-c*.dat 
 done 
